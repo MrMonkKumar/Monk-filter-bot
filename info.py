@@ -21,7 +21,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 USERNAME = environ.get('USERNAME', "https://telegram.me/HolaAmerica")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001955982543'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+SpPYPb3K0TlmYjJl')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001839613864').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001930199476').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://nijebo9157:pjqxKgZ6ZgckhqAh@cluster0.g4slm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "Bot_Info")
