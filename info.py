@@ -17,7 +17,7 @@ API_ID = int(environ.get('API_ID', '26241463'))
 API_HASH = environ.get('API_HASH', 'cbe4eea1d4be2284cb4c21ca0bf88c94')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7807211759:AAE8mOvMGJplEc44YtL1a96SeZ8AAM4fWj4')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '811754901').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7013137708').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/HolaAmerica")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001955982543'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+SpPYPb3K0TlmYjJl')
@@ -33,7 +33,7 @@ BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1001955982543'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002289290537'))
 URL = environ.get('URL', 'mytestbot-jvdfhbj.com')
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
-FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
+FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))8
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001955982543'))
 TUTORIAL = environ.get("TUTORIAoL", "https://t.me/monk_link_download/13")
